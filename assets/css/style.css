@@ -162,7 +162,7 @@ section {
 /**
 * Desktop Navigation 
 */
-.navbar {
+/* .navbar {
   padding: 0;
 }
 
@@ -286,7 +286,7 @@ section {
 /**
 * Mobile Navigation 
 */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   color: #473d3a;
   font-size: 28px;
   cursor: pointer;
@@ -391,7 +391,7 @@ section {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
-}
+} */ */
 
 /*--------------------------------------------------------------
 *--------------------------------------------------------------
@@ -736,4 +736,51 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/* navigation
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .active {
+  font-weight: bold;
+}
+
+.search-form {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  max-width: 400px; /* set the maximum width of the search form */
+  /* padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.search-form .form-control {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    justify-content: center; /* center the navbar items */
+  /* }
+
+  .search {
+    position: relative;
+    margin-left: auto;
+  }
+
+  .search-form {
+    display: block;
+  }
+} */
 

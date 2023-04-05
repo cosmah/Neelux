@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Neelux | Our Products</title>
+    <title>Neelux | Contact Us</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -71,6 +71,33 @@
     <link href="assets/img/bulbs/5w bulb.jpeg" rel="icon" />
 
     <style>
+      .navbar {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
       .jumbotron {
         margin-bottom: 0;
       }
@@ -98,70 +125,6 @@
         font-size: 18px;
         color: white;
       }
-      .product-section {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 50px 0;
-      }
-
-      .product-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-
-      .product {
-        background-color: #fff;
-        padding: 20px;
-        text-align: center;
-        border-radius: 5px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-        width: calc(33.33% - 10px);
-        margin-bottom: 20px;
-      }
-
-      .product:hover {
-        transform: translateY(-5px);
-      }
-
-      .product img {
-        max-width: 100%;
-      }
-
-      .product h3 {
-        margin-top: 20px;
-        font-size: 1.2rem;
-      }
-
-      .product p {
-        margin-top: 10px;
-        font-size: 0.9rem;
-      }
-
-      .product button {
-        margin-top: 20px;
-        background-color: #0077ff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-      }
-
-      .product button:hover {
-        background-color: #0052cc;
-      }
-
-      /* Media queries */
-      @media only screen and (max-width: 767px) {
-        .product {
-          width: 100%;
-        }
-      }
-
       .center {
   text-align: center;
   border: 3px;
@@ -206,13 +169,23 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Product 1</a>
-              <a class="dropdown-item" href="#">Product 2</a>
-              <a class="dropdown-item" href="#">Product 3</a>
+              <a class="dropdown-item" href="products.html">ALL PRODUCTS</a>
+              <a class="dropdown-item" href="./products/strip.html">STRIP LIGHTS</a>
+              <a class="dropdown-item" href="./products/flood.html">FLOOD LIGHTS</a>
+              <a class="dropdown-item" href="./products/led_bulb.html">LED BULBS</a>
+              <a class="dropdown-item" href="./products/filament.html">FILAMENT BULBS</a>
+              <a class="dropdown-item" href="./products/wall.html">WALL LAMPS</a>
+              <a class="dropdown-item" href="./products/down.html">DOWN LIGHT</a>
+              <a class="dropdown-item" href="./products/track.html">TRACK LIGHTS</a>
+              <a class="dropdown-item" href="./products/street.html">STREET LIGHTS</a>
+              <a class="dropdown-item" href="./products/chandelier.html">CHANDELIERS</a>
+              <a class="dropdown-item" href="./products/table.html">TABLE LAMPS</a>
+              <a class="dropdown-item" href="./products/ceilin.html">CEILING LIGHTS</a>
+              <a class="dropdown-item" href="./products/accessories.html">LED ACCESSORIES</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -233,75 +206,77 @@
         </ul>
       </div>
     </nav>
+<br/>
+<br/>
+<br/>
+<br/>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <h1 class="text-center">Contact Us</h1>
-                <p class="text-center">We are happy to hear from you</p>
-                <form action="#" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <div class="form-group text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div>
-      <center>
-        <div class="row justify-content-center">
-          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
-            <div class="info-box">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>Market Plaza Shop B-15, Market Street, Kampala, Uganda</p>
-            </div>
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+              <h1 class="text-center">Contact Us</h1>
+              <p class="text-center">We are happy to hear from you</p>
+              <form action="#" method="POST">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="subject">Subject</label>
+                      <input type="text" class="form-control" id="subject" name="subject" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+              </form>
           </div>
-
-          <div
-            class="col-xl-3 col-lg-4 mt-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="info-box">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>teelux.uganda@gmail.com</p>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 mt-4"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="info-box">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+256 789 582 546<br />+256 740 778 636</p>
-            </div>
+      </div>
+  </div>
+  <div>
+    <center>
+      <div class="row justify-content-center">
+        <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>Our Address</h3>
+            <p>Market Plaza Shop B-15, Market Street, Kampala, Uganda</p>
           </div>
         </div>
-      </center>
-    </div>
-   
 
-     <!-- ======= Footer ======= -->
-     <footer id="footer">
+        <div
+          class="col-xl-3 col-lg-4 mt-4"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Us</h3>
+            <p>teelux.uganda@gmail.com</p>
+          </div>
+        </div>
+        <div
+          class="col-xl-3 col-lg-4 mt-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Us</h3>
+            <p>+256 789 582 546<br />+256 740 778 636</p>
+          </div>
+        </div>
+      </div>
+    </center>
+  </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -315,29 +290,33 @@
                 <strong>Email:</strong> teelux.uganda@gmail.com<br />
               </p>
             </div>
-  
+
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i> <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="about.html">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="products.html">Products</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="support.html">Support</a>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="index.html">Home</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
+                  <a href="about.html">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="products.html">Products</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="support.html">Support</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./assets/privacy-policy.html">Privacy policy</a>
                 </li>
               </ul>
             </div>
-  
+
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Products</h4>
               <div class="row">
@@ -345,22 +324,23 @@
                   <ul>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Flood Lights</a>
+                      <a href="./products/flood.html">Flood Lights</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Street Lights</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i> <a href="#">Bulbs</a>
+                      <a href="./products/street.html">Street Lights</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Strip Light</a>
+                       <a href="./products/led_bulb.html">Bulbs</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Track lights</a>
+                      <a href="./products/strip.html">Strip Light</a>
+                    </li>
+                    <li>
+                      <i class="bx bx-chevron-right"></i>
+                      <a href="./products/track.html">Track lights</a>
                     </li>
                   </ul>
                 </div>
@@ -368,31 +348,31 @@
                   <ul>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Ceiling Lights</a>
+                      <a href="./products/ceilin.html">Ceiling Lights</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Wall Lamps</a>
+                      <a href="./products/wall.html">Wall Lamps</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Chandeliers</a>
+                      <a href="./products/chandelier.html">Chandeliers</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Panel Lamps</a>
+                      <a href="./products/down.html">Panel Lamps</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>
-                      <a href="#">Led Tubes</a>
+                      <a href="./products/tubes.html">Led Tubes</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-  
+
             <!-- Newsletter -->
-  
+
             <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Join Our Newsletter</h4>
           <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
@@ -403,7 +383,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="container d-lg-flex py-4">
         <div class="me-lg-auto text-center text-lg-start">
           <div class="copyright">
@@ -420,14 +400,28 @@
         </div>
       </div>
     </footer>
-    <!-- End Footer -->
-  
-  <!-- Template Main JS File -->
-  <script src="/js/main.js"></script>
-         <!-- Latest jQuery form server -->
+
+    <!-- Template Main JS File -->
+    <script src="/js/main.js"></script>
+    <!-- Latest jQuery form server -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
 
     <!-- Bootstrap JS form CDN -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</body>
-</html>  
+    <script>
+      window.onscroll = function() {myFunction()};
+
+var navbar = document.querySelector('.navbar');
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky')
+  } else {
+    navbar.classList.remove('sticky');
+  }
+}
+
+    </script>
+  </body>
+</html>

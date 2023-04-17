@@ -79,8 +79,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
 }
-
-    <style>
       .navbar {
   background-color: #333;
   color: #fff;
@@ -148,118 +146,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Hide dropdown menu when mouse is no longer hovering over the link or the dropdown menu itself */
 .dropdown-menu:not(:hover) {
   display: none;
-}
- /* ACCORDION */
-.accordion {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.tab {
-  position: relative;
-  margin: 10px 0;
-}
-
-.tab label {
-  display: block;
-  padding: 15px 20px;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.tab input[type="checkbox"] {
-  display: none;
-}
-
-.tab input[type="checkbox"]:checked + label {
-  background-color: #ddd;
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.tab input[type="checkbox"]:checked ~ .content {
-  max-height: 500px;
-  transition: max-height 0.5s ease;
-}
-
-.content img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-/* Container for the accordion */
-.accordion {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Accordion item */
-.accordion-item {
-  width: calc(100% / 3);
-  padding: 10px;
-}
-
-/* Accordion header */
-.accordion-header {
-  background-color: #f5f5f5;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* Active state for accordion header */
-.accordion-header.active {
-  background-color: #ddd;
-}
-
-/* Accordion content */
-.accordion-content {
-  display: none;
-  padding: 10px;
-  background-color: #f5f5f5;
-}
-
-/* Active state for accordion content */
-.accordion-content.active {
-  display: block;
-}
-
-/* Accordion header */
-.accordion-header {
-  background-color: #f5f5f5;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* Active state for accordion header */
-.accordion-header.active {
-  background-color: #ddd;
-}
-
-/* Hover effect for accordion header */
-.accordion-header:hover {
-  background-color: #ddd;
-}
-
-/* Hover effect for accordion content */
-.accordion-header:hover + .accordion-content {
-  display: block;
-  animation: fadein 0.5s;
-}
-
-/* Animation for accordion content */
-@keyframes fadein {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
 
 .enlargeable-image {
@@ -354,164 +240,99 @@ h1, h2, h3, h4, h5, h6 {
 <br/>
 <center>
   <h1>LED BULBS</h1>
-  <p>Here are some of the key features of our product:</p>
-<ul>
-    <li>Feature 1: This feature does something really cool.</li>
-    <li>Feature 2: This feature is even cooler than the first one.</li>
-    <li>Feature 3: With this feature, you can do things you never thought possible.</li>
-</ul>
-</center>
-
-<br/>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-           <h3>A-series LED BULB</h3>
-               <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="./img/bulbs/a-se.jpeg" class="enlargeable-image"  alt="Table Setting" width="600" height="750">
+    <br>               
+    <div class="w3-cell-row">
+      <div class="w3-container w3-red w3-cell w3-cell-top">
+        
+        <a href="./img/bulbs/a-se.jpeg">
+          <div class="w3-display-container w3-text-white">
+            <img src="./img/bulbs/a-se.jpeg" alt="Lights" style="width:300px"> 
+          </div>
+        </a>
+        <h4>A - LED BULB </h4>
+        <p>B22 and E27 Available</p>
+      </div>
+      <div class="w3-container w3-green w3-cell w3-cell-middle">
+        <a href="./img/bulbs/t-se.jpeg">
+          <div class="w3-display-container w3-text-white">
+            <img src="./img/bulbs/t-se.jpeg" alt="Lights" style="width:300px">
+            <div class="w3-xlarge w3-display-bottomleft w3-padding"></div>
+          </div>
+        </a>
+        <h4>T - LED BULB</h4>
+        <p>B22 and E27 Available</p>
+      </div>
+      <div class="w3-container w3-blue w3-cell w3-cell-bottom">
+        <a href="./img/bulbs/mosquito bulb.jpeg">
+          <div class="w3-display-container w3-text-white">
+            <img src="./img/bulbs/mosquito bulb.jpeg" alt="Lights" style="width:300px">
+            <div class="w3-xlarge w3-display-bottomleft w3-padding"></div>
+          </div>
+        </a>
+        <h4>MOSQUITO KILLER</h4>
+        <p>B22 Available</p>
+      </div>
     </div>
     
-        </div>
-    
-    
-        <div class="col">
-           <h3>T-series LED BULB</h3>
-           <div class="w3-col m6 w3-padding-large w3-hide-small">
-            <img src="./img/bulbs/t-se.jpeg" class="enlargeable-image" alt="Table Setting" width="600" height="750">
-           </div>
-       
-        </div>
-      </div>
-
-
-      <br/>
-      <br/>
-      <div class="accordion">
-        <div class="accordion-item">
-          <div class="accordion-header">MOSQUITO BULB</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/mosquito bulb.jpeg" alt="Image 1">
-            <p>Content for Row 1, Column 1</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">ROTATING BULB</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/rotating bulb.jpeg" alt="Image 2">
-            <p>Content for Row 1, Column 2</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">FAN BULB</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/fan bulb.jpeg" alt="Image 3">
-            <p>Content for Row 1, Column 3</p>
-          </div>
-        </div>
-        
-        <div class="accordion-item">
-          <div class="accordion-header">FOOTBALL BULB</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/football bulbs.jpeg" alt="Image 4">
-            <p>Content for Row 2, Column 1</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">MUSIC BULB</div>
-          <div class="accordion-content">
-            <img src="./img/display/music.jpeg" alt="Image 5">
-            <p>Content for Row 2, Column 2</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">RECHARGEABLE BULB</div>
-          <div class="accordion-content">
-            <img src="./img/display/7wr.jpeg" alt="Image 6">
-            <p>Content for Row 2, Column 3</p>
-          </div>
-        </div>
-        
-        <div class="accordion-item">
-          <div class="accordion-header">5W BULB (SCREW)</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/5w bulb.jpeg" alt="Image 7">
-            <p>Content for Row 3, Column 1</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">7W BULB (PIN)</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/7w bulb.jpeg" alt="Image 8">
-            <p>Content for Row 3, Column 2</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">LED BULB</div>
-          <div class="accordion-content">
-            <img src="./img/bulbs/A.jpeg" alt="Image 9">
-            <p>Content for Row 3, Column 3</p>
-          </div>
-        </div>
-      </div>
-      
-
-  <hr>
-
-  <center>
-    <h3>Product FAQ</h3>
-            <p>Here are some frequently asked questions about our product:</p>
-            <div id="accordion">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                How long does the product last?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            The product is designed to last for several years with proper care.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Is the product easy to use?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            Yes, the product is designed to be user-friendly and easy to use.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Can I return the product if I'm not satisfied?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            Yes, we offer a 30-day money-back guarantee if you're not completely satisfied with your purchase.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-  </center>
-<!-- End page content -->
-</div>
-
-                    
-     </div>
+<br>
+  <div class="w3-cell-row">
+    <div class="w3-container w3-red w3-cell w3-cell-top">
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-green w3-cell w3-cell-middle">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-blue w3-cell w3-cell-bottom">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+  </div>
+<br>
+  <div class="w3-cell-row">
+    <div class="w3-container w3-red w3-cell w3-cell-top">
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-green w3-cell w3-cell-middle">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-blue w3-cell w3-cell-bottom">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+  </div>
+  <br>
+  <div class="w3-cell-row">
+    <div class="w3-container w3-red w3-cell w3-cell-top">
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-green w3-cell w3-cell-middle">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-blue w3-cell w3-cell-bottom">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+  </div><br>
+  <div class="w3-cell-row">
+    <div class="w3-container w3-red w3-cell w3-cell-top">
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-green w3-cell w3-cell-middle">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+    <div class="w3-container w3-blue w3-cell w3-cell-bottom">
+      <p>Hello W3.CSS Layout.</p>
+    </div>
+  </div>
 
 
         <!-- ======= Footer ======= -->
@@ -660,47 +481,6 @@ function myFunction() {
     navbar.classList.remove('sticky');
   }
 }
-
-//ACCORDON
-// Get all accordion headers and content
-const accordionHeaders = document.querySelectorAll(".accordion-header");
-const accordionContent = document.querySelectorAll(".accordion-content");
-
-// Add event listener to each header
-accordionHeaders.forEach((header, index) => {
-  header.addEventListener("click", () => {
-    // Toggle active class on header
-    header.classList.toggle("active");
-    
-    // Toggle display of corresponding content
-    accordionContent[index].classList.toggle("active");
-  });
-});
-
-
-const enlargeableImages = document.querySelectorAll('.enlargeable-image');
-
-enlargeableImages.forEach((image) => {
-  image.addEventListener('click', () => {
-    const enlargedImageContainer = document.createElement('div');
-    enlargedImageContainer.setAttribute('id', 'enlarged-image-container');
-    
-    const enlargedImage = document.createElement('img');
-    enlargedImage.setAttribute('id', 'enlarged-image');
-    enlargedImage.setAttribute('src', image.src);
-    
-    enlargedImageContainer.appendChild(enlargedImage);
-    document.body.appendChild(enlargedImageContainer);
-    
-    enlargedImageContainer.addEventListener('click', () => {
-      enlargedImageContainer.remove();
-    });
-    
-    enlargedImage.onload = () => {
-      enlargedImageContainer.style.display = 'flex';
-    };
-  });
-});
 
     </script>
   </body>

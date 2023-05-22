@@ -1120,7 +1120,7 @@ textarea#comment.update_mail::placeholder {
 
 /* copyright section start */
 
-.copyright_section {
+/* .copyright_section {
     width: 100%;
     float: left;
     background-color: #d07d6b;
@@ -1143,7 +1143,7 @@ textarea#comment.update_mail::placeholder {
 
 .copyright_text a:hover {
     color: #363636;
-}
+} */
 
 
 /* copyright section end */
@@ -1151,3 +1151,174 @@ textarea#comment.update_mail::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+
+/* FOOTER STYLE */
+#footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    width: 100%;
+    margin-top: 80px; /* Add margin-top for spacing */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Make H4 headings uppercase */
+  .footer-links h4 {
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Rest of the CSS code remains the same */
+  
+#footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .footer-top {
+    margin-bottom: 30px;
+  }
+  
+  .footer-contact h3 {
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+  
+  .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+  }
+  
+  .footer-contact strong {
+    color: #222222;
+  }
+  
+  .footer-links h4 {
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links i {
+    color: #dd6b20;
+    margin-right: 5px;
+  }
+  
+  .footer-links a {
+    color: #666666;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #dd6b20;
+  }
+  
+  .footer-links .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .footer-links .col-sm-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-links .col-sm-6 {
+      margin-bottom: 30px;
+    }
+  }
+  
+/* Copyright Section */
+/* Footer */
+/* Horizontal Rule */
+#footer hr {
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+  }
+#footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  /* #footer hr {
+    border-top: 1px solid #000000;
+    margin-top: 0;
+  } */
+  
+  .footer_social_icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer_social_icon ul li {
+    margin-left: 10px;
+  }
+  
+  .footer_social_icon ul li a {
+    color: #555555;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer_social_icon ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Copyright */
+  .container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  /* Adjust the font and color as needed */
+  .footer_text {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 0;
+  }
+  

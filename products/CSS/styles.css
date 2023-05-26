@@ -44,3 +44,26 @@
 }
 
 /* end */
+
+/* ceiling light */
+/* header section start */
+
+.header_sect {
+  width: 100%;
+  float: left;
+  background-image: url(../img/walls/header/wall-bg.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header_bg {
+  width: 100%;
+  float: left;
+  background-image: url(../img/walls/header/wall-bg.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* end */

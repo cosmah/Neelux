@@ -67,3 +67,26 @@
 }
 
 /* end */
+
+/* down light */
+/* header section start */
+
+.header_set {
+  width: 100%;
+  float: left;
+  background-image: url(../img/dls/header/dl-bg.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header_bg {
+  width: 100%;
+  float: left;
+  background-image: url(../img/dls/header/dl-bg.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* end */

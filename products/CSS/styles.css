@@ -113,3 +113,26 @@
 }
 
 /* end */
+
+/* strip light */
+/* header section start */
+
+.header_sector {
+  width: 100%;
+  float: left;
+  background-image: url(../img/strips/header/bg-2.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header_bg {
+  width: 100%;
+  float: left;
+  background-image: url(../img/strips/header/bg-2.png);
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* end */

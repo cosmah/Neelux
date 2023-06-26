@@ -215,7 +215,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/header3.jpg);
+    background-image: url(../products/img/strips/header/bg-2.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@ button {
 .header_bg {
     width: 100%;
     float: left;
-    background-image: url(../images/header3.jpg);
+    background-image: url(../products/img/strips/header/bg-2.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;

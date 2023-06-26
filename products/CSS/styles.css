@@ -1,138 +1,150 @@
+/* Common header styles */
+.header {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
 /* chandeliers */
-/* header section start */
+.header_sec,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header_sec {
-  width: 100%;
-  float: left;
   background-image: url(../img/chandelier/header/chan-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .header_bg {
-  width: 100%;
-  float: left;
   background-image: url(../img/chandelier/header/chan-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
-/* end */
-
-
 /* ceiling light */
-/* header section start */
+.header_se,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header_se {
-  width: 100%;
-  float: left;
   background-image: url(../img/CEILING/header/ceiling-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .header_bg {
-  width: 100%;
-  float: left;
   background-image: url(../img/CEILING/header/ceiling-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
-/* end */
-
-/* ceiling light */
-/* header section start */
+/* walls */
+.header_sect,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header_sect {
-  width: 100%;
-  float: left;
   background-image: url(../img/walls/header/wall-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .header_bg {
-  width: 100%;
-  float: left;
   background-image: url(../img/walls/header/wall-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
-
-/* end */
 
 /* down light */
-/* header section start */
+.header_set,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header_set {
-  width: 100%;
-  float: left;
   background-image: url(../img/dls/header/dl-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .header_bg {
-  width: 100%;
-  float: left;
   background-image: url(../img/dls/header/dl-bg.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
-
-/* end */
 
 /* panel light */
-/* header section start */
+.header_sett,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .header_sett {
-  width: 100%;
-  float: left;
   background-image: url(../img/panel/display/panel_bg.jpg);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .header_bg {
-  width: 100%;
-  float: left;
   background-image: url(../img/panel/display/panel_bg.jpg);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
-
-/* end */
 
 /* strip light */
-/* header section start */
-
-.header_sector {
-  width: 100%;
-  float: left;
-  background-image: url(../img/strips/header/bg-2.png);
-  height: auto;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
+.header_sector,
 .header_bg {
   width: 100%;
   float: left;
-  background-image: url(../img/strips/header/bg-2.png);
   height: auto;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* end */
+.header_sector {
+  background-image: url(../img/strips/header/bg-2.png);
+}
+
+.header_bg {
+  background-image: url(../img/strips/header/bg-2.png);
+}
+
+/* flood light */
+.header_sectors,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_sectors {
+  background-image: url(../img/floods/header/yrvge6hp.png);
+}
+
+.header_bg {
+  background-image: url(../img/floods/header/yrvge6hp.png);
+}
+
+/* bulb */
+.header_sections,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_sections {
+  background-image: url(../img/bulbs/header3.jpg);
+}
+
+.header_bg {
+  background-image: url(../img/bulbs/header3.jpg);
+}

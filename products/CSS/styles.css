@@ -131,7 +131,7 @@
   background-image: url(../img/floods/header/yrvge6hp.png);
 }
 
-/* bulb */
+/*led bulb */
 .header_sections,
 .header_bg {
   width: 100%;
@@ -147,4 +147,22 @@
 
 .header_bg {
   background-image: url(../img/bulbs/header3.jpg);
+}
+
+/*filament bulb */
+.header_sectory,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_sectory {
+  background-image: url(../img/filament/header/background.jpg);
+}
+
+.header_bg {
+  background-image: url(../img/filament/header/background.jpg);
 }

@@ -166,3 +166,21 @@
 .header_bg {
   background-image: url(../img/filament/header/background.jpg);
 }
+
+/*tubes bulb */
+.header_sectorum,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_sectorum {
+  background-image: url(../img/tubes/header/bg-heaer.png);
+}
+
+.header_bg {
+  background-image: url(../img/tubes/header/bg-heaer.png);
+}

@@ -184,3 +184,21 @@
 .header_bg {
   background-image: url(../img/tubes/header/bg-heaer.png);
 }
+
+/*track light */
+.header_track,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_track {
+  background-image: url(../img/tracks/header/bg-h.png);
+}
+
+.header_bg {
+  background-image: url(../img/tracks/header/bg-h.png);
+}

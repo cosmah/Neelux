@@ -202,3 +202,21 @@
 .header_bg {
   background-image: url(../img/tracks/header/bg-h.png);
 }
+
+/*street light */
+.header_street,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_street {
+  background-image: url(../img/street/header/bh-header.png);
+}
+
+.header_bg {
+  background-image: url(../img/street/header/bh-header.png);
+}

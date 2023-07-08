@@ -220,3 +220,21 @@
 .header_bg {
   background-image: url(../img/street/header/bh-header.png);
 }
+
+/*garden light */
+.header_garden,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_garden {
+  background-image: url(../img/garden/header/hg-pic.png);
+}
+
+.header_bg {
+  background-image: url(../img/garden/header/hg-pic.png);
+}

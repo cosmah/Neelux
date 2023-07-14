@@ -238,3 +238,94 @@
 .header_bg {
   background-image: url(../img/garden/header/hg-pic.png);
 }
+
+/*navbar*/
+/* Custom styles for the navbar */
+.navbar {
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #555;
+}
+
+.dropdown-menu {
+  margin-top: 5px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f8f9fa;
+}
+
+.login_bt ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.login_bt ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fa-search {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Additional styles for the banner section */
+/* .banner_section {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.banner_taital_main {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.banner_taital {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tasty_text {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.banner_text {
+  font-size: 18px;
+  color: #777;
+} */

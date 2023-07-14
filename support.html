@@ -1,428 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Neelux | Contact Us</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-
-    <!-- Template Main CSS File -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Google Fonts -->
-    <link
-      href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Raleway:400,100"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-
-    <!-- Custom CSS -->
-
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-
-    <!-- Favicons -->
-    <link href="assets/img/bulbs/5w bulb.jpeg" rel="icon" />
-
-    <!-- Favicons -->
-    <link href="assets/img/bulbs/5w bulb.jpeg" rel="icon" />
-
-    <style>
-      .navbar {
-  background-color: #333;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.navbar li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-      .jumbotron {
-        margin-bottom: 0;
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile metas -->
+  
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <style>
+      body {
+         background-color: #f8f9fa;
       }
-      .navbar {
-        margin-bottom: 0;
+      .contacts-form {
+         max-width: 600px;
+         margin: 50px auto;
       }
-      .navbar-brand {
-        font-size: 30px;
-        font-weight: bold;
-        color: white;
+      h1 {
+         text-align: center;
+         margin-bottom: 30px;
       }
-      .navbar-nav a {
-        font-size: 18px;
-        color: white;
+      .form-group {
+         margin-bottom: 20px;
       }
-      .nav-item.active {
-        background-color: white;
-        color: black;
+      .form-control {
+         height: 50px;
       }
-      .dropdown-menu {
-        background-color: #343a40;
-        border: none;
+      textarea.form-control {
+         height: 150px;
       }
-      .dropdown-item {
-        font-size: 18px;
-        color: white;
+      .btn-primary {
+         width: 100%;
+         height: 50px;
+         font-size: 18px;
       }
-      .center {
-  text-align: center;
-  border: 3px;
-  /* border: 3px solid green; */
-}
-/* Show dropdown on hover */
-.navbar-nav li:hover > .dropdown-menu {
-  display: block;
-}
-
-/* Hide dropdown menu when mouse is no longer hovering over the link or the dropdown menu itself */
-.dropdown-menu:not(:hover) {
-  display: none;
-}
-
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-      <a class="navbar-brand" href="#">NEELUX</a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-center"
-        id="collapsibleNavbar"
-      >
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="products.html">Products</a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../products.html">ALL PRODUCTS</a>
-              <a class="dropdown-item" href="../products/strip.html">STRIP LIGHTS</a>
-              <a class="dropdown-item" href="../products/flood.html">FLOOD LIGHTS</a>
-              <a class="dropdown-item" href="../products/led_bulb.html">LED BULBS</a>
-              <a class="dropdown-item" href="../products/filament.html">FILAMENT BULBS</a>
-              <a class="dropdown-item" href="../products/wall.html">WALL LAMPS</a>
-              <a class="dropdown-item" href="../products/down.html">DOWN LIGHT</a>
-              <a class="dropdown-item" href="../products/track.html">TRACK LIGHTS</a>
-              <a class="dropdown-item" href="../products/street.html">STREET LIGHTS</a>
-              <a class="dropdown-item" href="../products/chandelier.html">CHANDELIERS</a>
-              <a class="dropdown-item" href="../products/table.html">TABLE LAMPS</a>
-              <a class="dropdown-item" href="../products/ceilin.html">CEILING LIGHTS</a>
-              <a class="dropdown-item" href="../products/panels.html">PANEL LAMPS</a>
-              <a class="dropdown-item" href="../products/accessories.html">LED ACCESSORIES</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              >Support</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="support.html">Contact Us</a>
-              <a class="dropdown-item" href="./assets/privacy-policy.html"
-                >Privacy Policy</a
-              >
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-<br/>
-<br/>
-<br/>
-<br/>
-    <div class="container">
-      <div class="row">
-          <div class="col-md-6 offset-md-3">
-              <h1 class="text-center">Contact Us</h1>
-              <p class="text-center">We are happy to hear from you</p>
-              <form action="#" method="POST">
-                  <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" class="form-control" id="name" name="name" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="subject">Subject</label>
-                      <input type="text" class="form-control" id="subject" name="subject" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                  </div>
-                  <div class="form-group text-center">
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </div>
-  <div>
-    <center>
-      <div class="row justify-content-center">
-        <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>Our Address</h3>
-            <p>Market Plaza Shop B-15, Market Street, Kampala, Uganda</p>
-          </div>
-        </div>
-
-        <div
-          class="col-xl-3 col-lg-4 mt-4"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Us</h3>
-            <p>teelux.uganda@gmail.com</p>
-          </div>
-        </div>
-        <div
-          class="col-xl-3 col-lg-4 mt-4"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Us</h3>
-            <p>+256 789 582 546<br />+256 740 778 636</p>
-          </div>
-        </div>
-      </div>
-    </center>
-  </div>
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Neelux</h3>
-              <p>
-                Market Plaza, Shop B-15 <br />
-                Market Street, Kampala<br />
-                Uganda <br /><br />
-                <strong>Phone:</strong> +256 789 582 546<br />
-                <strong>Email:</strong> teelux.uganda@gmail.com<br />
-              </p>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html">Home</a>
+   </style>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="cosmah">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- font css -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+</head>
+<body>
+  <div class="header_section">
+    <div class="container-fluid">
+       <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top" style="background-color: #f8f9fa;">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a> -->
+          <a class="navbar-brand" href="../index.html"><b>NEELUX</b></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                   <a class="nav-link" href="./index.html">Home</a>
                 </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="about.html">About us</a>
+                <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                      <a class="dropdown-item" href="../products.html">ALL PRODUCTS</a>
+                      <a class="dropdown-item" href="../products/strip.html">STRIP LIGHTS</a>
+                      <a class="dropdown-item" href="../products/flood.html">FLOOD LIGHTS</a>
+                      <a class="dropdown-item" href="../products/led_bulb.html">LED BULBS</a>
+                      <a class="dropdown-item" href="../products/filament.html">FILAMENT BULBS</a>
+                      <a class="dropdown-item" href="../products/wall.html">WALL LAMPS</a>
+                      <a class="dropdown-item" href="../products/down.html">DOWN LIGHT</a>
+                      <a class="dropdown-item" href="../products/track.html">TRACK LIGHTS</a>
+                      <a class="dropdown-item" href="../products/street.html">STREET LIGHTS</a>
+                      <a class="dropdown-item" href="../products/chandelier.html">CHANDELIERS</a>
+                      <a class="dropdown-item" href="../products/table.html">TABLE LAMPS</a>
+                      <a class="dropdown-item" href="../products/ceilin.html">CEILING LIGHTS</a>
+                      <a class="dropdown-item" href="../products/panels.html">PANEL LAMPS</a>
+                      <a class="dropdown-item" href="../products/garden.html">GARDEN LAMPS</a>
+                      <a class="dropdown-item" href="../products/accessories.html">LED ACCESSORIES</a>
+                      <a class="dropdown-item" href="../products/tubes.html">LED TUBES</a>
+                   </div>
                 </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="products.html">Products</a>
+                <li class="nav-item">
+                   <a class="nav-link" href="./about.html">About</a>
                 </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="support.html">Support</a>
+                <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown">Support</a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                      <a class="dropdown-item" href="./support.html">Contact Us</a>
+                      <a class="dropdown-item" href="./assets/privacy-policy.html">Privacy Policy</a>
+                   </div>
                 </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="./assets/privacy-policy.html">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Products</h4>
-              <div class="row">
-                <div class="col-sm-6">
-                  <ul>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/flood.html">Flood Lights</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/street.html">Street Lights</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                       <a href="./products/led_bulb.html">Bulbs</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/strip.html">Strip Light</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/track.html">Track lights</a>
-                    </li>
-                  </ul>
+             </ul>
+             <form class="form-inline my-2 my-lg-0">
+                <div class="login_bt">
+                   <ul>
+                      <!-- <li><a href="#"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li> -->
+                      <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                   </ul>
                 </div>
-                <div class="col-sm-6">
-                  <ul>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/ceilin.html">Ceiling Lights</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/wall.html">Wall Lamps</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/chandelier.html">Chandeliers</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/down.html">Panel Lamps</a>
-                    </li>
-                    <li>
-                      <i class="bx bx-chevron-right"></i>
-                      <a href="./products/tubes.html">Led Tubes</a>
-                    </li>
-                  </ul>
+             </form>
+          </div>
+       </nav>
+    </div>
+ </div>
+   <div class="contacts-form">
+      <h1>Contact Us</h1>
+      <form action="#" method="POST">
+         <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+         </div>
+         <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+         </div>
+         <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+         </div>
+         <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+         </div>
+         <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+   </div>
+      <!-- footer section start -->
+ 
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h3>Neelux</h3>
+                <p>
+                  Market Plaza, Shop B-15 <br />
+                  Market Street, Kampala<br />
+                  Uganda <br /><br />
+                  <strong>Phone:</strong> +256 789 582 546<br />
+                  <strong>Email:</strong> teelux.uganda@gmail.com<br />
+                </p>
+              </div>
+  
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="./index.html">Home</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="./about.html">About us</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="./products.html">Products</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="./support.html">Support</a>
+                  </li>
+                  <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="../assets/privacy-policy.html">Privacy policy</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Products</h4>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/flood.html">Flood Lights</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/street.html">Street Lights</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                         <a href="../products/led_bulb.html">Bulbs</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/strip.html">Strip Light</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/track.html">Track lights</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/ceilin.html">Ceiling Lights</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/wall.html">Wall Lamps</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/chandelier.html">Chandeliers</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/panels.html">Panel Lamps</a>
+                      </li>
+                      <li>
+                        <i class="bx bx-chevron-right"></i>
+                        <a href="../products/tubes.html">Led Tubes</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <!-- Newsletter -->
 
-            <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
-          </form>
-        </div> -->
-          </div>
+<!-- footer section end -->
+<hr/>
+<!-- copyright section start -->
+<div class="copyright_section">
+<div class="container">
+  <div class="row">
+     <div class="col-lg-6 col-sm-12">
+        <p class="copyright_text">
+           &copy; 2023 All Rights Reserved. NEELUX
+        </p>
+     </div>
+     <div class="col-lg-6 col-sm-12">
+        <div class="footer_social_icon">
+           <ul>
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+           </ul>
         </div>
-      </div>
+     </div>
+  </div>
+</div>
+</div>
 
-      <div class="container d-lg-flex py-4">
-        <div class="me-lg-auto text-center text-lg-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>Neelux 2023</span></strong
-            >. All Rights Reserved
-          </div>
-        </div>
-        <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-    </footer>
+<!-- copyright section end -->
+<!-- Javascript files-->
 
-    <!-- Template Main JS File -->
-    <script src="/js/main.js"></script>
-    <!-- Latest jQuery form server -->
-    <script src="https://code.jquery.com/jquery.min.js"></script>
+<!-- sticky nvbar -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
-    <!-- Bootstrap JS form CDN -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-      window.onscroll = function() {myFunction()};
 
-var navbar = document.querySelector('.navbar');
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add('sticky')
-  } else {
-    navbar.classList.remove('sticky');
-  }
-}
-
-    </script>
-  </body>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- <script src="js/jquery-3.0.0.min.js"></script> -->
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
 </html>

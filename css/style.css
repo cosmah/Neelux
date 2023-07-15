@@ -1160,6 +1160,7 @@ textarea#comment.update_mail::placeholder {
   }
   
   .footer-top {
+    margin-top: 30px;
     margin-bottom: 30px;
   }
   

@@ -104,13 +104,11 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="mail_section_1">
-                        <form action="./mailer/send_email.php" method="POST">
-                           <input type="text" name="name" placeholder="Your Name" required><br>
-                           <input type="email" name="email" placeholder="Your Email" required><br>
-                           <input type="text" name="phone" placeholder="Your Phone" required><br>
-                           <textarea name="message" placeholder="Your Message" required></textarea><br>
-                           <input type="submit" value="Send">
-                        </form>
+                        <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
+                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
+                        <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
+                        <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                        <div class="send_bt"><a href="#">SEND</a></div>
                      </div>
                   </div>
                   <!-- <div class="map_main">

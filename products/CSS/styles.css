@@ -239,6 +239,51 @@
   background-image: url(../img/garden/header/hg-pic.png);
 }
 
+/*table light */
+.header_table,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_table {
+  background-image: url(../img/table/header/bg-pic.png);
+}
+
+.header_bg {
+  background-image: url(../img/table/header/bg-pic.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*navbar*/
 /* Custom styles for the navbar */
 .navbar {

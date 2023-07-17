@@ -257,6 +257,24 @@
   background-image: url(../img/table/header/bg-pic.png);
 }
 
+/*accessories  */
+.header_accessories,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_accessories {
+  background-image: url(../img/accessories/header/bd-pic.png);
+}
+
+.header_bg {
+  background-image: url(../img/accessories/header/bd-pic.png);
+}
+
 
 
 

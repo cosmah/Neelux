@@ -275,6 +275,24 @@
   background-image: url(../img/accessories/header/bd-pic.png);
 }
 
+/*emergency  */
+.header_emerge,
+.header_bg {
+  width: 100%;
+  float: left;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_emerge {
+  background-image: url(../img/emergency/headr/bg-header.png);
+}
+
+.header_bg {
+  background-image: url(../img/emergency/headr/bg-header.png);
+}
+
 
 
 
